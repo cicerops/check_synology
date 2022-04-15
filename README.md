@@ -26,6 +26,14 @@ apt install --yes libsnmp-dev snmp-mibs-downloader
 pip install git+https://github.com/wernerfred/check_synology
 ```
 
+While the program will work already, the most recent official release of the
+``easysnmp`` package available on PyPI is from Jun 15, 2017. So, unless a new
+version gets published, we recommend to use the latest ``easysnmp`` from the
+upstream repository. It received many improvements just recently (2022).
+```shell
+pip install git+https://github.com/kamakazikamikaze/easysnmp
+```
+
 
 ## Usage
 ```shell
